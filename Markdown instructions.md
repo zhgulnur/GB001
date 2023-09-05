@@ -7,7 +7,7 @@ P.S. Лучше чтобы это была новая папка для кажд
 
 После открытия создаем файл markdowm (.md) и работаем через терминал.
 
-Для инициализации Git набираем: git init
+Для инициализации Git набираем: _**git init**_
 
 Также нам нужно представиться с помощью команды _**git config --global user.name "ваше_имя"**_
 
@@ -48,6 +48,8 @@ _**git checkout названиеВетки**_  - для перехода в др
 _**git branch -d названиеВтки**_  - для удаления ветки
 
 _**git merge названиеВетки**_  - для слияние ветки с той, в которой вы находитесь. То есть, нужно вернуться в master (ведь основная работа проводится там, по логике).
+
+_**git config branch.autosetuprebase always # Force all new branches to automatically use rebase**_  - для того, чтобы ветки автоматически сливались без выхода сообщения вроде "Please enter a commit message to explain why this merge is necessary, # especially if it merges an updated upstream into a topic branch."
 
 ## Выделение текста
 
