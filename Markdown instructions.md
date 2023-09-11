@@ -136,6 +136,13 @@ _**git config branch.autosetuprebase always # Force all new branches to automati
 8. Написать git pull
 9. Отправить pull request
 
+# Заметки:
+Fork + git clone - копия для локального 
+
+Fork + git pull - merge-ит с удаленного в локальный (типа обновленная версия)
+
+git push - отправляет с локального в удаленный
+
 ## Ссылки
 
 ## Работа с таблицами
